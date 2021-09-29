@@ -10,7 +10,7 @@ if(typeof window !== 'undefined' && window.web3 !== 'undefined'){
   const provider = new Web3.providers.HttpProvider(
     'https://rinkeby.infura.io/v3/15a4a56923b14777a2437b58f1c59484'
   );
-  web3 = new Web3(provider);
+  web3 = new Web3(rovider);
 }
 
 export default web3;

@@ -20,7 +20,7 @@ contract Campaign {
       uint value;
       address recipient;
       bool complete;
-      uint approvalCount;
+      uint approvalCountb;
       mapping(address => bool) approvals;
   }
 
