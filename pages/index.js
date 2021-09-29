@@ -10,7 +10,7 @@ class CampaginIndex extends Component {
     super(props);
     this.state = {
       items: null,
-      summary: 
+      summary: null
     }
   }
   static async getInitialProps() {
